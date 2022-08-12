@@ -38,6 +38,7 @@ const Modal = ({ modalStatus }) => {
         console.error("There was an error", error);
       });
   };
+  console.log(data)
 
   const validate = (values) => {
     const errors = {};
